@@ -27,25 +27,18 @@ PropostaPro é uma plataforma completa para criação, envio e assinatura digita
 - Node.js 18 ou superior
 - Supabase CLI (para desenvolvimento local)
 
-### Instalação
-
-1. Clone o repositório:
-```bash
-git clone https://github.com/seu-usuario/propostapro.git
-cd propostapro
-```
-
-2. Instale as dependências:
+É NECESSÁRIO!! 
+1. Instale as dependências:
 ```bash
 npm install
 ```
 
-3. Execute o projeto em modo de desenvolvimento:
+2. Execute o projeto em modo de desenvolvimento:
 ```bash
 npm run dev
 ```
 
-4. Para iniciar o Supabase localmente (opcional):
+3. Para iniciar o Supabase localmente (opcional):
 ```bash
 supabase start
 ```
@@ -85,11 +78,3 @@ As seguintes tabelas são necessárias:
 - signature_requests
 - signatories
 - audit_events
-
-## Documentação
-
-Para mais detalhes sobre componentes e funcionalidades, consulte a [documentação interna](./docs).
-
-## Licença
-
-Este projeto é proprietário e confidencial. Todos os direitos reservados.
